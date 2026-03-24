@@ -1,6 +1,6 @@
-# HOPE
+# HOPE (HistOlogy model with Spatial Proteomics Enrichment)
 
-This repository contains the implementation of HOPE (Histology image analysis with Omnidirectional Patch Embeddings).
+This repository contains the implementation of HOPE: Histology Analysis with Spatial Proteomics Enrichment for Precision Oncology.
 
 ## Step 1. Create environment and install dependencies
 
@@ -88,7 +88,7 @@ HOPE/
 │   ├── metrics.py               # Evaluation metrics
 │   └── set_seed.py              # Random seed setting
 ├── assets/                       
-│   ├── ckpts/                   # Pretrained model weights
+│   ├── ckpts/                   # Create directories for pretrained model weights
 │   │   ├── uni2-h/              # UNI2-h model
 │   │   │   └── pytorch_model.bin
 │   │   ├── musk/                # MUSK model (auto-downloaded)
