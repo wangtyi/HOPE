@@ -1,6 +1,6 @@
-# HOPE
+# HOPE (HistOlogy model with Spatial Proteomics Enrichment)
 
-This repository contains the implementation of HOPE (Histology image analysis with Omnidirectional Patch Embeddings).
+This repository contains the implementation of HOPE: Histology Analysis with Spatial Proteomics Enrichment for Precision Oncology.
 
 ## Step 1. Create environment and install dependencies
 
@@ -62,7 +62,7 @@ The following datasets are used in this project:
 |---------|---------------|------------|
 | **UPMC-HNC MIF data** | https://zenodo.org/records/13179600 | `upmc_raw_data.zip`, `upmc_labels.csv` |
 | **UPMC-HNC H&E images** | https://zenodo.org/records/19163305 | H&E images, `region_id_mapping.csv` |
-| **HCC MIF & H&E images** | https://zenodo.org/records/15392699 | MIF data + H&E images |
+| **HCC MIF & H&E images** | https://zenodo.org/records/19123188| MIF data + H&E images |
 
 
 ## Step 4. Usage
@@ -88,7 +88,7 @@ HOPE/
 │   ├── metrics.py               # Evaluation metrics
 │   └── set_seed.py              # Random seed setting
 ├── assets/                       
-│   ├── ckpts/                   # Pretrained model weights
+│   ├── ckpts/                   # Create directories for pretrained model weights
 │   │   ├── uni2-h/              # UNI2-h model
 │   │   │   └── pytorch_model.bin
 │   │   ├── musk/                # MUSK model (auto-downloaded)
